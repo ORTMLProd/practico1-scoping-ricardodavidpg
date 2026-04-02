@@ -3,9 +3,8 @@ name = "clase-1"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Santiago Morón Santos",email = "santimoron001@gmail.com"}
+    {name = "Santiago Morón Santos", email = "santimoron001@gmail.com"}
 ]
-package-mode = false
 requires-python = ">=3.10,<3.13"
 dependencies = [
     "numpy==1.26.4",
@@ -14,9 +13,13 @@ dependencies = [
     "pandas<3.0",
     "tf-keras (==2.15.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "plotly (>=6.6.0,<7.0.0)"
+    "plotly (>=6.6.0,<7.0.0)",
+    "transformers (>=5.5.0,<6.0.0)",
+    "torch (>=2.11.0,<3.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
